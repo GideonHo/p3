@@ -130,6 +130,7 @@ div#contact-details {
   width: 100%; height: 100%;
 }
 
+/*
 div#result p {
   float: left;
   color: black; 
@@ -138,6 +139,7 @@ div#result p {
   padding: 1em 2% 1em 2%;
   width: 100%; height: 100%;
 }
+*/
 
 div.myCanvas1 {
   float: left;
