@@ -14,7 +14,12 @@
 Route::group(['middleware' => ['web']], function () {
 
     Route::get('/', function () {
-        return view('welcome');
+        return view('index');
     });
-
+	
+    //Route::get('/', 'RandomController@getText');
+    Route::get('/text', 'RandomController@getText');
+    Route::post('/text', 'RandomController@postText');
+    Route::get('/user', 'RandomController@getUser');
+    Route::post('/user', 'RandomController@postUser');
 });
